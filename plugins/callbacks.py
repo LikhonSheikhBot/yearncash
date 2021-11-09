@@ -49,7 +49,7 @@ async def cb_handler(client, query):
                 [
                     InlineKeyboardButton("Creator?", url="https://t.me/GodFatherMob"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
-                ],
+                ]
         )
 
         await query.message.edit_text(
