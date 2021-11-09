@@ -45,7 +45,6 @@ async def cb_handler(client, query):
     elif query.data == "help_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
-            [
                 [
                     InlineKeyboardButton("Creator?", url="https://t.me/GodFatherMob"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
